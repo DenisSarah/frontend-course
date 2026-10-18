@@ -6,3 +6,5 @@ dist/
 .env
 .env.*
 !.env.example
+mini-homeworks/02/server/teams.local.json
+mini-homeworks/02/server/teams.local.json.tmp

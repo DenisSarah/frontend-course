@@ -1,0 +1,70 @@
+export const seedTeams = [
+  {
+    id: 'radiant-sparks',
+    name: 'Radiant Sparks',
+    region: 'EU',
+    description: 'Собираемся вечером и учимся играть вместе. Ищем спокойных напарников для командных матчей.',
+    recruiting: true,
+    players: [
+      { position: 1, nickname: 'Sparky' },
+      { position: 3, nickname: 'Oak' },
+      { position: 5, nickname: 'Lantern' },
+    ],
+  },
+  {
+    id: 'northern-runes',
+    name: 'Северные руны',
+    region: 'CIS',
+    description: 'Небольшая команда друзей. Хотим заполнить состав и договориться об удобном расписании.',
+    recruiting: true,
+    players: [
+      { position: 2, nickname: 'Снег' },
+      { position: 4, nickname: 'Ёж' },
+    ],
+  },
+  {
+    id: 'moonlight-five',
+    name: 'Moonlight Five',
+    region: 'ASIA',
+    description: 'Полный состав для совместных игр. Пока играем своей пятёркой и не открываем набор.',
+    recruiting: false,
+    players: [
+      { position: 1, nickname: 'LunaRay' },
+      { position: 2, nickname: 'Comet' },
+      { position: 3, nickname: 'Orbit' },
+      { position: 4, nickname: 'Nova' },
+      { position: 5, nickname: 'Stella' },
+    ],
+  },
+  {
+    id: 'ancient-echo',
+    name: 'Ancient Echo',
+    region: 'AMERICA',
+    description: 'Пробуем новые связки героев и обсуждаем матчи после игры. Осталось найти игрока на сложную линию.',
+    recruiting: true,
+    players: [
+      { position: 1, nickname: 'River' },
+      { position: 2, nickname: 'Echo' },
+      { position: 4, nickname: 'Breeze' },
+      { position: 5, nickname: 'Moss' },
+    ],
+  },
+  {
+    id: 'forest-creeps',
+    name: 'Лесные крипы',
+    region: 'CIS',
+    description: 'Новая команда без готового состава. Можно выбрать любую позицию и познакомиться с будущими напарниками.',
+    recruiting: true,
+    players: [],
+  },
+  {
+    id: 'quiet-lane',
+    name: 'Quiet Lane',
+    region: 'EU',
+    description: 'Пока играем в своём кругу. Состав и время игр ещё обсуждаем, поэтому набор временно закрыт.',
+    recruiting: false,
+    players: [
+      { position: 3, nickname: 'Still' },
+    ],
+  },
+];
