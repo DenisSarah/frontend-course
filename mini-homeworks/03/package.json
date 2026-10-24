@@ -1,0 +1,31 @@
+{
+  "name": "@frontend-course/mini-03",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 5177 --strictPort --mode children",
+    "dev:baseline": "vite --host 127.0.0.1 --port 5178 --strictPort --mode baseline",
+    "dev:manual": "vite --host 127.0.0.1 --port 5179 --strictPort --mode manual",
+    "dev:compiler": "vite --host 127.0.0.1 --port 5180 --strictPort --mode compiler",
+    "build": "vite build --mode children --outDir dist/local && vite build --mode baseline --outDir dist/baseline && vite build --mode manual --outDir dist/manual && vite build --mode compiler --outDir dist/compiler",
+    "preview": "vite preview --host 127.0.0.1 --port 5177 --strictPort --outDir dist/local",
+    "lint": "eslint .",
+    "update:players": "node scripts/update-players.mjs"
+  },
+  "dependencies": {
+    "react": "19.2.8",
+    "react-dom": "19.2.8"
+  },
+  "devDependencies": {
+    "@babel/core": "8.0.7",
+    "@eslint/js": "10.0.1",
+    "@rolldown/plugin-babel": "0.2.4",
+    "@vitejs/plugin-react": "6.1.0",
+    "babel-plugin-react-compiler": "1.0.0",
+    "eslint": "10.0.1",
+    "eslint-plugin-react-hooks": "7.1.1",
+    "globals": "17.11.0",
+    "vite": "8.2.2"
+  }
+}

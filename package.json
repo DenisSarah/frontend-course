@@ -9,6 +9,7 @@
   "scripts": {
     "dev": "pnpm --filter @frontend-course/mini-01 dev",
     "dev:02": "pnpm --filter @frontend-course/mini-02 dev",
+    "dev:03": "pnpm --filter @frontend-course/mini-03 dev",
     "build": "pnpm -r --if-present build",
     "lint": "pnpm -r --if-present lint"
   }
