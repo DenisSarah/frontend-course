@@ -5,7 +5,8 @@ mini-homeworks/
   01/       — каталог героев Dota 2 (React + Vite)
   02/       — команды Dota 2 (React + Express)
   03/       — подбор игроков Dota 2 и оптимизации React
-homeworks/  — большие ДЗ todo
+homeworks/
+  01/       — сборки Dota 2 (React + TypeScript + localStorage)
 ```
 
 ## Запуск
@@ -34,6 +35,14 @@ pnpm dev:03
 ```
 
 Приложение: http://127.0.0.1:5177. Варианты для сравнения — в `mini-homeworks/03/README.md`.
+
+Первое большое ДЗ:
+
+```bash
+pnpm dev:hw01
+```
+
+Приложение: http://127.0.0.1:5181.
 
 ```bash
 pnpm build
