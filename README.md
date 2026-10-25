@@ -9,6 +9,12 @@ homeworks/
   01/       — сборки Dota 2 (React + TypeScript + localStorage)
 ```
 
+## ДЗ 1 в браузере
+
+[Открыть сайт](https://dota-builds-denissarah-hw1.workcodexgpt.chatgpt.site) — без установки и запуска. Созданные сборки сохраняются в браузере посетителя.
+
+Код, описание и скриншоты: [homeworks/01](homeworks/01).
+
 ## Запуск
 
 Нужны Node.js 24.19+ и pnpm 11.25.0. Команды из корня проекта:
