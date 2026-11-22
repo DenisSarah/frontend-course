@@ -12,6 +12,7 @@
     "dev:03": "pnpm --filter @frontend-course/mini-03 dev",
     "dev:hw01": "pnpm --filter @frontend-course/homework-01 dev",
     "build": "pnpm -r --if-present build",
-    "lint": "pnpm -r --if-present lint"
+    "lint": "pnpm -r --if-present lint",
+    "dev:hw02": "pnpm --filter @frontend-course/homework-02 dev"
   }
 }

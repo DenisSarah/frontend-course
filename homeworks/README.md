@@ -1,5 +1,4 @@
-```text
-01/ — сборки Dota 2 (React + TypeScript + localStorage)
-```
+01. [Сборки Dota 2](01) — `pnpm dev:hw01`
+02. [Журнал матчей Dota 2](02) — `pnpm dev:hw02`
 
-Запуск из корня репозитория: `pnpm dev:hw01`.
+Команды выполняются из корня репозитория.

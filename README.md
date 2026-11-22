@@ -7,6 +7,7 @@ mini-homeworks/
   03/       — подбор игроков Dota 2 и оптимизации React
 homeworks/
   01/       — сборки Dota 2 (React + TypeScript + localStorage)
+  02/       — журнал матчей Dota 2 (React + Express)
 ```
 
 ## ДЗ 1 в браузере
@@ -49,6 +50,8 @@ pnpm dev:hw01
 ```
 
 Приложение: http://127.0.0.1:5181.
+
+Второе большое ДЗ: `pnpm dev:hw02` — http://127.0.0.1:5182. [Описание и маршруты](homeworks/02/README.md).
 
 ```bash
 pnpm build
